@@ -1,3 +1,4 @@
+create database project;
 show databases;
 use project;
 show tables;
