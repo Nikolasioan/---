@@ -1,0 +1,57 @@
+Fluffy Pancakes,cookery,1,light and airy pancakes perfect for breakfast,breakfast,4,flour,American cuisine
+Spinach and Feta Quiche,cookery,3,a savory pie filled with spinach and feta cheese,brunch,6,eggs,French cuisine
+Beef Wellington,cookery,4,a decadent pastry-wrapped beef tenderloin with mushroom duxelles,dinner,4,beef,British cuisine
+Chocolate Chip Cookies,pastry,2,classic cookies loaded with chocolate chips,snack,12,butter,American cuisine
+Chicken Pad Thai,cookery,3,a flavorful stir-fried noodle dish with chicken and peanuts,meal,4,chicken,Thai cuisine
+Croissant,pastry,4,flaky and buttery French pastry,breakfast,8,butter,French cuisine
+Tiramisu,pastry,3,an elegant Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese,dessert,8,coffee,Italian cuisine
+Sushi Rolls,cookery,4,assorted sushi rolls with fresh fish and vegetables,dinner,6,rice,Japanese cuisine
+Spanakopita,cookery,3,a Greek spinach and feta cheese pie wrapped in flaky phyllo pastry,meal,6,spinach,Greek cuisine
+Baklava,pastry,5,a rich and sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with honey,dessert,12,nuts,Turkish cuisine
+Omelette,cookery,2,a fluffy egg dish filled with assorted ingredients,breakfast,2,eggs,French cuisine
+Margherita Pizza,cookery,2,a classic pizza topped with tomato sauce mozzarella and basil,dinner,4,flour,Italian cuisine
+Chicken Caesar Salad,cookery,2,"a refreshing salad with grilled chicken, romain lettuce and Caesar dressing",meal,2,chicken,American cuisine
+Apple Pie,pastry,3,a traditional pie filled with cinnamon-spiced apples,dessert,8,apples,American cuisine
+Beef Stir-Fry,cookery,2,a quick and flavorful dish with thinly sliced beef and vegetables,dinner,4,beef,Chinese cuisine
+Chocolate Cake,pastry,3,a rich and moist cake topped with chocolate frosting,dessert,8,chocolate,American cuisine
+Falafel,cookery,3,deep-fried chickpea patties served in pita bread with tahini sauce,meal,4,chickpeas,Middle Eastern cuisine
+Lemon Bars,pastry,2,tangy lemon bars with a buttery shortbread crust,snack,12,lemon,American cuisine
+Shrimp Scampi,cookery,3,succulent shrimp sautéed in garlic butter and served over pasta,dinner,4,shrimp,Italian cuisine
+Beef Tacos,cookery,2,seasoned ground beef served in corn tortillas with toppings,dinner,4,beef,Mexican cuisine
+Croque Monsieur,cookery,3,a classic French ham and cheese sandwich topped with béchamel sauce,brunch,2,ham,French cuisine
+Chicken Enchiladas,cookery,3,shredded chicken wrapped in corn tortillas and topped with enchilada sauce and cheese,dinner,4,chicken,Mexican cuisine
+Blueberry Muffins,pastry,2,moist muffins bursting with fresh blueberries,breakfast,12,blueberries,American cuisine
+Pad See Ew,cookery,3,"a Thai stir-fried noodle dish with chicken, broccoli and soy sauce",meal,4,chicken,Thai cuisine
+Shepherd's Pie,cookery,3,a comforting casserole with ground meat and mashed potatoes,dinner,6,beef,British cuisine
+Tuna Salad Sandwich,cookery,1,"a simple sandwich made with canned tuna, mayonnaise and vegetables",lunch,2,tuna,American cuisine
+Miso Soup,cookery,1,a traditional Japanese soup made with dashi broth and miso paste,meal,4,tofu,Japanese cuisine
+Key Lime Pie,pastry,3,a tangy pie made with key lime juice and a graham cracker crust,dessert,8,lime,American cuisine
+Chicken Tikka Masala,cookery,3,marinated and grilled chicken in a creamy tomato sauce,dinner,4,chicken,Indian cuisine
+Beef Bourguignon,cookery,4,a hearty French stew made with beef,dinner,6,beef,French cuisine
+Cheese Soufflé,cookery,4,a light and airy baked dish made with cheese and eggs,dinner,4,cheese,French cuisine
+Scones,pastry,2,tender and buttery British pastries often served with jam and clotted cream,breakfast,8,flour,British cuisine
+Caprese Salad,cookery,1,"a simple Italian salad with fresh tomatoes, mozzarella and basil",snack,2,tomatoes,Italian cuisine
+Beef Bulgogi,cookery,3,Korean marinated beef grilled to perfection,dinner,4,beef,Korean cuisine
+Chicken Noodle Soup,cookery,2,"a comforting soup with chicken, noodles and vegetables",meal,6,chicken,American cuisine
+Chocolate Truffles,pastry,3,indulgent chocolate confections rolled in cocoa powder or nuts,dessert,20,chocolate,French cuisine
+Huevos Rancheros,cookery,2,"a Mexican breakfast dish with fried eggs, tortillas, and salsa",breakfast,2,eggs,Mexican cuisine
+Ratatouille,cookery,3,"a French vegetable stew made with eggplant, tomatoes and zucchini",meal,6,eggplant,French cuisine
+Tiramisu,pastry,3,an elegant Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese,dessert,8,coffee,Italian cuisine
+Falafel Wrap,cookery,2,"crispy falafel balls wrapped in pita bread with lettuce, tomatoes and tahini sauce",meal,2,chickpeas,Middle Eastern cuisine
+Beef Wellington,cookery,4,a decadent pastry-wrapped beef tenderloin with mushroom duxelles,dinner,4,beef,British cuisine
+Lemon Chicken Piccata,cookery,3,tender chicken breasts in a tangy lemon and caper sauce,dinner,4,chicken,Italian cuisine
+Vegetable Stir-Fry,cookery,2,a colorful mix of vegetables stir-fried in a savory sauce,dinner,4,vegetables,Asian cuisine
+Chicken Alfredo,cookery,2,creamy pasta with grilled chicken and Parmesan cheese,dinner,4,chicken,Italian cuisine
+Croissant Bread Pudding,pastry,3,"a decadent dessert made with croissants, custard and raisins",dessert,8,croissants,French cuisine
+Spaghetti Carbonara,cookery,2,"pasta with a creamy sauce made from eggs, cheese, pancetta and black pepper",dinner,4,pasta,Italian cuisine
+Chicken Shawarma,cookery,3,marinated grilled chicken served in pita bread with garlic sauce and vegetables,meal,4,chicken,Middle Eastern cuisine
+Red Velvet Cake,pastry,3,a moist and velvety cake with a rich cream cheese frosting,dessert,12,cocoa,American cuisine
+Margherita Flatbread,cookery,2,"a simple flatbread topped with tomato sauce, mozzarella and basil",snack,2,flour,Italian cuisine
+Gyro Wrap,cookery,3,thinly sliced lamb or chicken wrapped in pita bread with tzatziki sauce and vegetables,meal,2,lamb or chicken,Greek cuisine
+Pesto Pasta,cookery,2,pasta tossed in a vibrant basil pesto sauce,dinner,4,pasta,Italian cuisine
+Chicken Caesar Wrap,cookery,2,"grilled chicken, romain lettuce and Caesar dressing wrapped in a tortilla",lunch,2,chicken,American cuisine
+Mushroom Risotto,cookery,3,"creamy Italian rice dish cooked with mushrooms, onions and Parmesan cheese",dinner,4,rice,Italian cuisine
+Avocado Toast,cookery,1,"toasted bread topped with mashed avocado, salt and pepper",breakfast,2,avocado,American cuisine
+Chicken Quesadilla,cookery,2,"tortillas filled with grilled chicken, cheese and vegies",snack,2,chicken,Mexican cuisine
+French Onion Soup,cookery,3,a comforting soup made with caramelized onions and beef broth,meal,4,onions,French cuisine
+Lemon Ricotta Pancakes,cookery,2,fluffy pancakes made with ricotta cheese and fresh lemon zest,breakfast,4,ricotta cheese,American cuisine
