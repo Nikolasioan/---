@@ -159,3 +159,25 @@ primary key (rname,tname),
 foreign key (rname) references recipies(name),
 foreign key (tname) references themes(name)
 );
+
+
+alter table recipies
+add column base_ingredient varchar(50) not null;
+alter table recipies
+add column nationality varchar(40) not null;
+alter table recipies
+add constraint foreign key (base_ingredient) references ingredients(name);
+alter table recipies
+add constraint foreign key (nationality) references nationality(name);
+
+drop table recipe_nationality;
+drop table recipe_base_ingredient;
+
+desc ingredients;
+alter table ingredients
+add column category varchar(50) not null;
+alter table ingredients
+add constraint foreign key (category) references food_category(name);
+desc ingredient_category;
+drop table ingredient_category;
+rename table food_category to categories;
