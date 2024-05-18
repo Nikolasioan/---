@@ -277,17 +277,17 @@ alter table recipe_label drop constraint recipe_label_ibfk_2;
 show create table cook;
 show create table nationality;
 show create table cook_specialty;
-insert into nationality values ("Greek");
-select * from nationality;
-select * from cook;
-insert into cook_specialty values(1,"Greek");
-select * from cook_specialty;
-select * from recipies;
-truncate table cook_specialty;
-truncate table nationality;
-truncate table cook;
-delete from cook where id<100;
-select * from cook order by rand() limit 10;
+#insert into nationality values ("Greek");
+#select * from nationality;
+#select * from cook;
+#insert into cook_specialty values(1,"Greek");
+#select * from cook_specialty;
+#select * from recipies;
+#truncate table cook_specialty;
+#truncate table nationality;
+#truncate table cook;
+#delete from cook where id<100;
+#select * from cook order by rand() limit 10;
 
 create table ep_data(
 ep_id int unsigned not null,
