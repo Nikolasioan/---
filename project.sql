@@ -304,3 +304,7 @@ begin
 end;
 //
 DELIMITER ;
+
+alter table recipies
+add column preparation_time_in_min int not null,
+add column cooking_time_in_min int not null;
