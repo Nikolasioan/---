@@ -308,3 +308,126 @@ DELIMITER ;
 alter table recipies
 add column preparation_time_in_min int not null,
 add column cooking_time_in_min int not null;
+
+#new lines
+
+use project;
+show create table recipe_ingredient;
+alter table recipe_ingredient
+modify column quantity_in_grams int not null;
+
+show create table ingredients;
+alter table ingredients
+drop constraint ingredients_chk_4;
+alter table ingredients
+add constraint check(calories >= 0);
+
+alter table recipies
+add column protein_per_portion float not null,
+add column carbs_per_portion float not null,
+add column fats_per_portion float not null,
+add column calories_per_portion float not null;
+
+DELIMITER //
+create trigger calories_calculation_update
+before update on recipies
+for each row
+begin
+	declare calories float;
+    select sum((a.quantity_in_grams/100)*b.calories) into calories
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.calories_per_portion = calories/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger calories_calculation
+before insert on recipies
+for each row
+begin
+	declare calories float;
+    select sum((a.quantity_in_grams/100)*b.calories) into calories
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.calories_per_portion = calories/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger protein_calculation
+before insert on recipies
+for each row
+begin
+	declare protein float;
+    select sum((a.quantity_in_grams/100)*b.protein_per_100g) into protein
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.protein_per_portion = protein/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger protein_calculation_update
+before update on recipies
+for each row
+begin
+	declare protein float;
+    select sum((a.quantity_in_grams/100)*b.protein_per_100g) into protein
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.protein_per_portion = protein/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger carbs_calculation
+before insert on recipies
+for each row
+begin
+	declare carbs float;
+    select sum((a.quantity_in_grams/100)*b.carbs_per_100g) into carbs
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.carbs_per_portion = carbs/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger carbs_calculation_update
+before update on recipies
+for each row
+begin
+	declare carbs float;
+    select sum((a.quantity_in_grams/100)*b.carbs_per_100g) into carbs
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.carbs_per_portion = carbs/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger fats_calculation
+before insert on recipies
+for each row
+begin
+	declare fats float;
+    select sum((a.quantity_in_grams/100)*b.fats_per_100g) into fats
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.fats_per_portion = fats/new.portions;
+end;
+//
+DELIMITER ;
+
+DELIMITER //
+create trigger fats_calculation_update
+before update on recipies
+for each row
+begin
+	declare fats float;
+    select sum((a.quantity_in_grams/100)*b.fats_per_100g) into fats
+    from recipe_ingredient as a inner join ingredients as b on a.iname=b.name where a.rname=new.name;
+    set new.fats_per_portion = fats/new.portions;
+end;
+//
+DELIMITER ;
