@@ -5,7 +5,7 @@ create table recipies(
 name varchar(50) not null,
 type enum('cookery','pastry') not null,
 difficulty int not null check (difficulty between 1 and 5),
-description varchar(100) not null,
+description varchar(200) not null,
 portions int not null check (portions > 0),
 base_ingredient varchar(50) not null,
 nationality varchar(40) not null,
@@ -39,7 +39,7 @@ use_instructions varchar(150) not null
 
 create table themes(
 name varchar(50) not null primary key,
-description varchar(100) not null
+description varchar(200) not null
 );
 
 create table cook(
@@ -65,7 +65,7 @@ name varchar(50) not null primary key,
 protein_per_100g int not null check (protein_per_100g between 0 and 100),
 carbs_per_100g int not null check (carbs_per_100g between 0 and 100),
 fats_per_100g int not null check (fats_per_100g between 0 and 100),
-calories int not null check (calories>0),
+calories int not null check (calories>=0),
 category varchar(50) not null,
 typification varchar(50)
 );
