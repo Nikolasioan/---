@@ -1,0 +1,433 @@
+1,Gather ingredients,5,prep
+2,Preheat griddle or skillet,5,prep
+3,Grease griddle or skillet,2,prep
+4,"Sift dry ingredients (flour, sugar, baking powder, salt) into a bowl",5,prep
+5,"In a separate bowl, whisk together wet ingredients (eggs, milk, melted butter)",5,prep
+6,Create a well in the center of the dry ingredients and pour in the wet ingredients,2,prep
+7,Gently fold wet and dry ingredients until just combined,3,prep
+8,Let batter rest for 5-10 minutes to allow gluten to relax,10,prep
+9,Heat griddle or skillet over medium heat,5,cook
+10,"Ladle batter onto the griddle or skillet, using about 1/4 cup per pancake",2,cook
+11,"Cook until bubbles form on the surface of the pancakes and the edges look set, about 2-3 minutes",3,cook
+12,"Flip pancakes and cook until golden brown on the other side, about 2-3 minutes",3,cook
+13,Transfer cooked pancakes to a plate and keep warm while cooking remaining batter,5,cook
+14,Preheat oven to 375°F (190°C),5,prep
+15,Prepare pie crust in a 9-inch (23 cm) pie dish,10,prep
+16,Heat olive oil in a skillet over medium heat,2,cook
+17,"Add chopped onion and cook until softened, about 5 minutes",5,cook
+18,"Add chopped spinach to the skillet and cook until wilted, about 3 minutes",3,cook
+19,"In a large bowl, whisk together eggs, milk, salt, and pepper",5,prep
+20,Stir in crumbled feta cheese,2,prep
+21,Add cooked spinach mixture to the egg mixture and stir to combine,3,prep
+22,Pour the mixture into the prepared pie crust,2,prep
+23,"Bake in the preheated oven until the quiche is set and the crust is golden brown, about 35-40 minutes",35,cook
+24,Allow the quiche to cool for a few minutes before slicing and serving,5,prep
+25,"Prepare the beef tenderloin by trimming excess fat and tying with kitchen twine, if necessary",15,prep
+26,Season the beef generously with salt and pepper,5,prep
+27,Heat olive oil in a skillet over high heat,2,cook
+28,"Sear the beef on all sides until browned, about 2 minutes per side",8,cook
+29,Remove the beef from the skillet and let it cool completely,10,prep
+30,"Prepare the mushroom duxelles by finely chopping mushrooms, shallots, and garlic",10,prep
+31,Cook the mushroom mixture in the same skillet used for searing the beef until the moisture evaporates,10,cook
+32,Roll out puff pastry on a floured surface to a size large enough to wrap the beef,10,prep
+33,Spread a layer of pâté or mustard onto the puff pastry,1,prep
+34,Preheat the oven to 350°F (175°C),10,prep
+35,"In a large mixing bowl, cream together softened butter, granulated sugar, and brown sugar until light and fluffy",10,prep
+36,Beat in eggs and vanilla extract until well combined,5,prep
+37,"In a separate bowl, whisk together flour, baking soda, and salt",5,prep
+38,"Gradually add the dry ingredients to the wet ingredients, mixing until just combined",5,prep
+39,Fold in chocolate chips until evenly distributed throughout the dough,5,prep
+40,Drop rounded tablespoons of dough onto ungreased baking sheets,5,prep
+41,"Bake in the preheated oven for 8-10 minutes, or until the edges are golden brown",10,cook
+42,Soak rice noodles in warm water for 30 minutes,30,prep
+43,Heat oil in a wok or large skillet over medium-high heat,5,prep
+44,"Add minced garlic and chopped shallots, cook until fragrant",2,cook
+45,"Add diced chicken breast, cook until no longer pink",8,cook
+46,"Push chicken to one side of the wok, crack eggs into the empty space",2,cook
+47,"Scramble eggs until cooked through, then mix with chicken",3,cook
+48,Drain soaked rice noodles and add them to the wok,1,prep
+49,Pour in pad Thai sauce and toss until noodles are evenly coated,2,prep
+50,"Add bean sprouts, sliced green onions, and chopped peanuts",3,prep
+51,Stir-fry until bean sprouts are tender but still crisp,5,cook
+52,Serve hot with lime wedges and additional peanuts on top,1,prep
+53,"Prepare the dough by mixing flour, yeast, sugar, salt, and water in a large bowl",15,prep
+54,Knead the dough until smooth and elastic,10,prep
+55,Roll out the dough into a large rectangle on a floured surface,10,prep
+56,Spread softened butter over two-thirds of the dough rectangle,5,prep
+57,"Fold the unbuttered third over the middle third, then fold the remaining third on top to create layers",5,prep
+58,Wrap the dough in plastic wrap and refrigerate for 30 minutes,30,prep
+59,Remove the dough from the refrigerator and roll it out again into a large rectangle,5,prep
+60,"Repeat the folding process (steps 4-5) two more times, chilling the dough for 30 minutes between each fold",120,prep
+61,"After the final fold, wrap the dough and refrigerate overnight",480,prep
+62,"The next day, roll out the dough into a large rectangle about 1/4 inch thick",10,prep
+63,Cut the dough into triangles and roll each triangle into a croissant shape,15,prep
+64,Place the shaped croissants on a baking sheet lined with parchment paper,5,prep
+65,"Let the croissants proof at room temperature for 2-3 hours, until doubled in size",180,prep
+66,Preheat the oven to 375°F (190°C),10,prep
+67,Brush the proofed croissants with egg wash,5,prep
+68,"Bake the croissants in the preheated oven for 15-20 minutes, until golden brown",20,cook
+69,Allow the croissants to cool slightly before serving,10,prep
+70,Beat egg yolks and sugar until pale and creamy,5,prep
+71,Mix in mascarpone cheese until smooth,5,prep
+72,"Whip egg whites until stiff peaks form, then fold into mascarpone mixture",10,prep
+73,Dip ladyfingers in coffee and arrange in a single layer in a dish,10,prep
+74,Spread half of the mascarpone mixture over the ladyfingers,5,prep
+75,Repeat layers with remaining ladyfingers and mascarpone mixture,5,prep
+76,Dust the top with cocoa powder and refrigerate for at least 4 hours or overnight,240,prep
+77,Cook sushi rice according to package instructions and let it cool,30,prep
+78,Lay a sheet of nori on a bamboo sushi mat,5,prep
+79,"Spread rice over the nori, leaving a 1-inch border at the top",5,prep
+80,"Arrange fillings (such as cucumber, avocado, and crab sticks) in a line across the center of the rice",10,prep
+81,"Roll the sushi tightly using the bamboo mat, then slice into pieces",15,prep
+82,"Prepare the filling by wilting spinach and mixing it with feta cheese, onions, and herbs",15,prep
+83,Melt butter and brush phyllo pastry sheets with melted butter,10,prep
+84,Layer phyllo sheets with the spinach and cheese mixture,10,prep
+85,Fold and roll the phyllo sheets into a log shape,5,prep
+86,Brush the top with more butter and bake until golden brown,30,cook
+88,"Layer phyllo pastry sheets in a baking dish, brushing each layer with melted butter",20,prep
+89,"Mix chopped nuts with sugar and spices, then spread over the phyllo layers",10,prep
+90,Continue layering phyllo and nuts until all ingredients are used,20,prep
+91,Cut the baklava into diamond or square shapes,5,prep
+92,"Bake for 45 minutes to 1 hour, until golden brown",60,cook
+93,"Beat eggs with a splash of milk, salt, and pepper",5,prep
+94,Heat butter in a skillet over medium heat until melted,2,prep
+95,Pour the egg mixture into the skillet and let it cook undisturbed until the edges are set,3,cook
+96,Gently lift the edges of the omelette and tilt the skillet to let the uncooked eggs flow underneath,3,cook
+97,"Add fillings (such as cheese, vegetables, or ham) to one half of the omelette",2,prep
+98,Fold the other half of the omelette over the fillings and cook for another minute,2,cook
+99,Preheat the oven and pizza stone to the highest temperature possible,30,prep
+100,Roll out pizza dough on a floured surface into a circle,10,prep
+101,"Spread tomato sauce over the dough, leaving a border around the edges",5,prep
+102,Arrange sliced fresh mozzarella and basil leaves on top of the sauce,5,prep
+103,Drizzle olive oil over the pizza and sprinkle with salt,5,prep
+104,Transfer the pizza to the preheated pizza stone and bake until the crust is golden and the cheese is bubbly,10,cook
+105,"Grill or bake chicken breasts until cooked through, then slice into strips",20,cook
+106,"Prepare Caesar dressing by mixing mayonnaise, anchovy paste, garlic, lemon juice, and Parmesan cheese",10,prep
+107,Toss chopped romaine lettuce with Caesar dressing until evenly coated,5,prep
+108,"Add croutons, grated Parmesan cheese, and sliced grilled chicken to the salad",5,prep
+109,"Prepare pie crust by mixing flour, salt, and butter until crumbly, then adding ice water until dough forms",20,prep
+110,Roll out half of the dough and line a pie dish with it,10,prep
+111,"Mix sliced apples with sugar, cinnamon, and lemon juice, then pour into the pie crust",15,prep
+112,"Roll out the remaining dough and place it over the apples, sealing the edges",10,prep
+113,"Cut slits in the top crust to vent steam, then brush with egg wash",5,prep
+114,Bake in a preheated oven until the crust is golden brown and the filling is bubbling,60,cook
+115,"Slice beef thinly against the grain and marinate with soy sauce, garlic, and ginger",20,prep
+116,Heat oil in a wok or skillet over high heat,2,prep
+117,Stir-fry marinated beef until browned and cooked through,8,cook
+118,"Add sliced vegetables (such as bell peppers, onions, and broccoli) to the wok and stir-fry until tender-crisp",10,cook
+119,"Return the beef to the wok, add stir-fry sauce, and toss to combine",5,cook
+120,Preheat the oven to 350°F (175°C) and grease and flour cake pans,15,prep
+121,"Mix together flour, cocoa powder, baking powder, baking soda, and salt in a bowl",10,prep
+122,Cream together butter and sugar until light and fluffy,10,prep
+123,"Beat in eggs, one at a time, followed by vanilla extract",5,prep
+124,"Alternate adding dry ingredients and milk to the batter, mixing until smooth",10,prep
+125,Divide the batter evenly between the cake pans and bake until a toothpick inserted into the center comes out clean,30,cook
+126,Let the cakes cool completely before frosting,60,prep
+127,"Soak chickpeas in water overnight, then drain and rinse",1440,prep
+128,"Combine soaked chickpeas, onion, garlic, parsley, cumin, coriander, and salt in a food processor",15,prep
+129,Process until the mixture forms a coarse paste,5,prep
+130,Shape the mixture into balls or patties,10,prep
+131,Fry the falafel in hot oil until golden brown and crispy,10,cook
+132,Preheat the oven to 350°F (175°C) and grease a baking dish,15,prep
+133,"Mix together flour, sugar, and salt in a bowl",5,prep
+134,Cut in cold butter until the mixture resembles coarse crumbs,10,prep
+135,Press the mixture into the bottom of the prepared baking dish,5,prep
+136,"Bake until golden brown, then remove from the oven and let cool slightly",30,cook
+137,"Meanwhile, whisk together eggs, sugar, lemon juice, and lemon zest until smooth",10,prep
+138,Pour the lemon mixture over the baked crust and return to the oven,10,prep
+139,"Bake until the filling is set, then let cool completely before cutting into bars",30,cook
+140,"Cook pasta according to package instructions, then drain and set aside",10,prep
+141,Heat olive oil and butter in a skillet over medium heat,2,prep
+142,Add minced garlic and cook until fragrant,2,cook
+143,Add shrimp to the skillet and cook until pink and opaque,5,cook
+144,"Stir in white wine, lemon juice, and red pepper flakes",3,cook
+145,Add cooked pasta to the skillet and toss to coat in the sauce,5,prep
+146,"Serve hot, garnished with chopped parsley and grated Parmesan cheese",2,prep
+147,Season ground beef with taco seasoning and cook in a skillet until browned,10,cook
+148,Warm taco shells in the oven or microwave,5,prep
+149,"Fill taco shells with cooked beef and desired toppings (such as lettuce, cheese, tomatoes, and salsa)",5,prep
+150,"Serve hot, with lime wedges on the side",2,prep
+152,Spread Dijon mustard on slices of bread,5,prep
+153,Top half of the bread slices with sliced ham and grated Gruyère cheese,5,prep
+154,Cover with the remaining bread slices to make sandwiches,5,prep
+155,Spread butter on the outside of each sandwich,3,prep
+156,Place the sandwiches on a baking sheet and bake until golden brown and crispy,15,cook
+157,"Cook chicken breasts until fully cooked, then shred with forks",20,cook
+158,Mix shredded chicken with enchilada sauce and diced green chilies,5,prep
+159,Warm corn tortillas in the microwave or on the stovetop,5,prep
+160,"Spoon chicken mixture into each tortilla, roll up, and place seam-side down in a baking dish",10,prep
+161,Pour additional enchilada sauce over the top of the enchiladas,5,prep
+162,Sprinkle shredded cheese over the top and bake until cheese is melted and bubbly,20,cook
+163,Preheat the oven to 375°F (190°C) and line a muffin tin with paper liners,10,prep
+164,"In a large bowl, whisk together flour, sugar, baking powder, and salt",5,prep
+165,"In a separate bowl, mix together milk, oil, and eggs",5,prep
+166,Pour wet ingredients into dry ingredients and stir until just combined,5,prep
+167,Gently fold in fresh or frozen blueberries,5,prep
+168,Divide batter evenly among muffin cups and bake until golden brown and a toothpick inserted into the center comes out clean,20,cook
+169,Soak wide rice noodles in warm water for 30 minutes,30,prep
+170,Heat oil in a wok or large skillet over high heat,2,prep
+171,"Add minced garlic and chopped Chinese broccoli stems, cook until fragrant",2,cook
+172,"Add sliced chicken or tofu, cook until browned",8,cook
+173,"Push chicken or tofu to one side of the wok, crack eggs into the empty space",2,cook
+174,"Scramble eggs until cooked through, then mix with chicken or tofu",3,cook
+176,"Pour in soy sauce, oyster sauce, and dark soy sauce, toss until noodles are evenly coated",3,prep
+177,Add Chinese broccoli leaves and stir-fry until wilted,5,cook
+179,"Cook ground meat with onions, carrots, and peas until browned",15,cook
+180,Transfer the cooked meat mixture to a baking dish,2,prep
+181,Spread mashed potatoes over the top of the meat mixture,10,prep
+182,Bake in the preheated oven until the mashed potatoes are golden brown and the filling is bubbling,30,cook
+183,Drain canned tuna and flake it with a fork,5,prep
+184,"Mix tuna with mayonnaise, diced celery, diced red onion, and chopped pickles",5,prep
+185,"Season with salt, pepper, and lemon juice to taste",2,prep
+186,Spread tuna salad on bread slices and assemble sandwiches,5,prep
+187,Bring water or dashi stock to a simmer in a pot,5,prep
+188,"Dissolve miso paste in a small amount of hot water, then add it to the pot",2,prep
+189,"Add diced tofu, sliced green onions, and seaweed to the soup",5,prep
+190,Simmer for a few minutes until heated through,5,cook
+192,"Mix together graham cracker crumbs, sugar, and melted butter",5,prep
+193,Press the crumb mixture into the bottom of a pie dish,5,prep
+194,"Bake the crust until set, then let it cool completely",20,cook
+195,"In a bowl, whisk together sweetened condensed milk, key lime juice, and egg yolks",10,prep
+196,Pour the filling into the cooled crust and bake until set,30,cook
+197,"Let the pie cool, then refrigerate until chilled",120,prep
+198,"Marinate chicken pieces in yogurt, lemon juice, and spices for 1 hour",60,prep
+199,Grill or broil chicken until cooked through,15,cook
+200,"Heat oil in a skillet and sauté onions, garlic, and ginger until softened",5,cook
+201,"Add tomato sauce, cream, and spices to the skillet",5,prep
+202,"Simmer the sauce until thickened, then add cooked chicken",10,cook
+203,Serve hot with rice and naan bread,2,prep
+204,Preheat the oven to 325°F (160°C),10,prep
+205,"Sauté bacon in a Dutch oven until crispy, then remove and set aside",5,cook
+206,Brown beef cubes in batches in the bacon fat,10,cook
+207,"Remove beef and sauté onions, carrots, and garlic until softened",5,cook
+208,"Deglaze the pot with red wine, scraping up any browned bits",2,cook
+209,"Return beef and bacon to the pot, add beef broth, tomato paste, and herbs",5,prep
+210,Cover and bake in the preheated oven until beef is tender,120,cook
+212,Butter a soufflé dish and coat with grated Parmesan cheese,5,prep
+213,"Melt butter in a saucepan, then whisk in flour to make a roux",5,prep
+214,Gradually whisk in warm milk until smooth and thickened,10,prep
+215,Remove from heat and stir in grated cheese until melted,5,prep
+216,Beat egg yolks and fold into the cheese mixture,5,prep
+217,"In a clean bowl, beat egg whites until stiff peaks form",10,prep
+218,Gently fold egg whites into the cheese mixture,5,prep
+219,Pour the mixture into the prepared soufflé dish and bake until puffed and golden,25,cook
+220,Preheat the oven to 400°F (200°C),10,prep
+221,"Mix together flour, sugar, baking powder, and salt in a bowl",5,prep
+223,"Stir in dried fruit or chocolate chips, if desired",5,prep
+224,"Beat together egg and milk, then add to the dry ingredients",5,prep
+225,"Mix until just combined, then turn out onto a floured surface and knead briefly",5,prep
+226,Pat the dough into a circle and cut into wedges,5,prep
+227,Place scones on a baking sheet lined with parchment paper and bake until golden brown,15,cook
+228,Slice ripe tomatoes and fresh mozzarella cheese into rounds,5,prep
+229,"Arrange tomato and mozzarella slices on a plate, alternating and overlapping",5,prep
+230,Tuck fresh basil leaves between the tomato and mozzarella slices,5,prep
+231,Drizzle with balsamic glaze and olive oil,2,prep
+232,Sprinkle with salt and pepper to taste,2,prep
+233,"Thinly slice beef and marinate in soy sauce, sugar, sesame oil, garlic, and ginger for 1-2 hours",60,prep
+234,Heat a skillet or grill pan over high heat,5,prep
+235,Cook marinated beef in batches until browned and caramelized,10,cook
+236,Serve hot with steamed rice and vegetables,2,prep
+237,Bring chicken broth to a simmer in a large pot,5,prep
+238,"Add diced chicken, carrots, celery, and onion to the pot",10,prep
+239,Simmer until chicken is cooked through and vegetables are tender,20,cook
+240,"Add cooked noodles to the pot and season with salt, pepper, and herbs",5,prep
+241,Heat heavy cream until hot but not boiling,5,prep
+242,Pour hot cream over chopped chocolate and let it sit for a few minutes,5,prep
+243,"Stir until smooth and glossy, then refrigerate until firm",120,prep
+244,"Roll chocolate mixture into balls and coat with cocoa powder, powdered sugar, or chopped nuts",10,prep
+245,Warm tortillas in a skillet or oven,5,prep
+246,"Cook eggs to your preference (fried, scrambled, or poached)",5,cook
+247,"Top each tortilla with refried beans, cooked eggs, and salsa",5,prep
+248,"Garnish with chopped cilantro, avocado slices, and grated cheese",2,prep
+249,Heat olive oil in a large skillet over medium heat,2,prep
+250,Sauté onions and garlic until softened,5,cook
+251,"Add diced eggplant, zucchini, bell peppers, and tomatoes to the skillet",10,prep
+252,"Season with salt, pepper, and herbs de Provence",2,prep
+253,Simmer until vegetables are tender and flavors are blended,20,cook
+254,"Prepare falafel mixture by blending chickpeas, herbs, spices, and flour in a food processor",10,prep
+255,Shape falafel mixture into balls or patties and fry until golden brown and crispy,15,cook
+256,Warm flatbread in the oven or on a skillet,5,prep
+257,"Assemble falafel wrap with flatbread, falafel, lettuce, tomatoes, cucumbers, and tahini sauce",5,prep
+258,"Season chicken breasts with salt and pepper, then dredge in flour",5,prep
+259,Heat olive oil and butter in a skillet over medium-high heat,2,prep
+260,Sear chicken breasts until golden brown on both sides,10,cook
+261,Remove chicken from skillet and set aside,2,prep
+262,Add minced garlic to the skillet and cook until fragrant,2,cook
+263,"Deglaze the skillet with white wine and chicken broth, scraping up any browned bits",2,prep
+264,"Add lemon juice, capers, and lemon slices to the skillet",2,prep
+265,Return chicken to the skillet and simmer until cooked through,10,cook
+267,"Add sliced vegetables (such as bell peppers, broccoli, carrots, and snow peas) to the wok",5,prep
+268,Stir-fry until vegetables are tender-crisp,10,cook
+269,"Season with soy sauce, garlic, ginger, and any other desired seasonings",2,prep
+270,Serve hot over rice or noodles,2,prep
+272,"Season chicken breasts with salt, pepper, and garlic powder",5,prep
+273,Heat olive oil in a skillet over medium-high heat,2,prep
+274,Sear chicken breasts until golden brown on both sides and cooked through,10,cook
+276,"Melt butter in the skillet, then add minced garlic and cook until fragrant",2,cook
+277,"Stir in heavy cream, grated Parmesan cheese, and salt and pepper to taste",5,prep
+278,"Simmer until the sauce thickens, then toss with cooked pasta",5,cook
+279,Slice cooked chicken and serve over the Alfredo pasta,2,prep
+281,Cut croissants into cubes and place them in a greased baking dish,5,prep
+282,"In a bowl, whisk together eggs, milk, sugar, vanilla extract, and cinnamon",5,prep
+283,"Pour the egg mixture over the croissants, pressing down to ensure they are fully soaked",5,prep
+284,Bake in the preheated oven until golden brown and set,30,cook
+285,Serve warm with a dusting of powdered sugar or a drizzle of caramel sauce,2,prep
+286,"Cook spaghetti in a large pot of boiling salted water until al dente, then drain and set aside",10,prep
+287,Cook diced pancetta or bacon in a skillet until crispy,5,cook
+288,Remove cooked pancetta from the skillet and set aside,2,prep
+289,"In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper",5,prep
+290,Toss cooked spaghetti with the egg mixture until evenly coated,5,prep
+291,"Add cooked pancetta to the skillet, then pour the spaghetti and egg mixture over it",5,prep
+292,"Cook over low heat, tossing constantly, until the sauce thickens and coats the pasta",5,cook
+293,"Marinate chicken thighs in yogurt, lemon juice, garlic, and spices for 1-2 hours",60,prep
+294,Heat oil in a skillet over medium-high heat,2,prep
+295,Cook marinated chicken thighs until browned and cooked through,15,cook
+296,"Slice cooked chicken and serve in pita bread with lettuce, tomatoes, onions, and tahini sauce",5,prep
+298,Grease and flour cake pans,5,prep
+299,"In a bowl, sift together flour, cocoa powder, baking soda, and salt",5,prep
+300,"In another bowl, cream together butter and sugar until light and fluffy",5,prep
+301,"Beat in eggs, one at a time, then stir in vanilla extract and red food coloring",5,prep
+302,"Alternate adding dry ingredients and buttermilk to the batter, mixing until smooth",10,prep
+305,Preheat the oven to 425°F (220°C),10,prep
+306,Roll out pizza dough on a baking sheet lined with parchment paper,5,prep
+309,Drizzle olive oil over the flatbread and sprinkle with salt,2,prep
+310,Bake in the preheated oven until the crust is golden brown and the cheese is bubbly,10,cook
+311,Heat pita bread in the oven or on a skillet until warm and pliable,5,prep
+312,Slice cooked gyro meat thinly,5,prep
+313,"Assemble gyro wrap with warm pita bread, gyro meat, lettuce, tomatoes, onions, and tzatziki sauce",5,prep
+315,"In a food processor, blend fresh basil, pine nuts, garlic, Parmesan cheese, and olive oil until smooth",5,prep
+316,Toss cooked pasta with pesto sauce until evenly coated,5,prep
+317,"Serve hot, garnished with additional Parmesan cheese and pine nuts if desired",2,prep
+318,"Season chicken breasts with salt and pepper, then grill or bake until cooked through",15,cook
+319,Slice cooked chicken thinly,5,prep
+320,Warm tortillas in the oven or on a skillet until pliable,5,prep
+321,"Assemble Caesar wrap with warm tortillas, sliced chicken, romaine lettuce, Parmesan cheese, and Caesar dressing",5,prep
+322,Heat olive oil and butter in a large skillet over medium heat,2,prep
+323,Sauté diced onions and minced garlic until softened,5,cook
+324,Add Arborio rice to the skillet and toast until lightly golden,5,prep
+325,"Deglaze the skillet with white wine, stirring constantly until absorbed",2,prep
+326,"Add hot chicken or vegetable broth to the skillet, one ladleful at a time, stirring constantly until absorbed",20,cook
+327,Stir in sliced mushrooms and cook until tender,10,cook
+328,"Stir in grated Parmesan cheese, salt, and pepper to taste",2,prep
+329,"Serve hot, garnished with chopped parsley if desired",2,prep
+330,Toast bread until golden brown and crisp,5,prep
+331,Mash ripe avocados with a fork and spread over the toasted bread,5,prep
+332,"Season with salt, pepper, and red pepper flakes to taste",2,prep
+333,Drizzle with olive oil and sprinkle with sesame seeds or chopped cilantro if desired,2,prep
+334,Heat a skillet over medium heat,2,prep
+335,Place a tortilla in the skillet and sprinkle with shredded cheese,2,prep
+336,"Arrange cooked chicken, sliced peppers, onions, and any other desired fillings over the cheese",5,prep
+337,Top with another tortilla and cook until the bottom tortilla is golden brown and crispy,5,cook
+338,Flip the quesadilla and cook until the other side is golden brown and crispy,5,cook
+339,"Slice into wedges and serve hot, with salsa and sour cream on the side",2,prep
+340,Heat butter and olive oil in a large pot over medium heat,2,prep
+341,Add thinly sliced onions and cook until caramelized,30,cook
+342,Stir in flour and cook for 2 minutes,2,prep
+343,"Deglaze the pot with white wine, scraping up any browned bits",2,prep
+344,"Add beef broth, thyme, bay leaf, and salt and pepper to taste",5,prep
+345,Simmer for 20-30 minutes,20,cook
+346,Toast baguette slices in the oven until crisp,5,prep
+347,"Ladle soup into oven-safe bowls, top with baguette slices and shredded Gruyère cheese",5,prep
+348,Broil until the cheese is melted and bubbly,5,cook
+349,"In a bowl, whisk together flour, sugar, baking powder, and salt",5,prep
+350,"In another bowl, mix together ricotta cheese, milk, lemon juice, lemon zest, egg yolks, and melted butter",10,prep
+351,Beat egg whites until stiff peaks form,5,prep
+352,Gently fold egg whites into the ricotta mixture,5,prep
+353,Heat a skillet or griddle over medium heat and lightly grease with butter or oil,2,prep
+354,Pour batter onto the skillet to form pancakes and cook until golden brown on both sides,10,cook
+355,Preheat oven to 160°C (320°F) and grease and flour a round cake pan,10,prep
+356,"Beat eggs and sugar until pale, thick, and tripled in volume",3,prep
+357,"Sift flour into egg mixture in batches, gently folding after each",5,prep
+358,Fold in vanilla extract,1,prep
+359,Pour batter into prepared pan and smooth the top,2,prep
+360,Bake for 25-30 minutes until golden and a toothpick comes out clean,30,cook
+361,"Cool in pan for 10 minutes, then transfer to a wire rack",10,prep
+362,Rinse the clams under cold water to remove any sand or grit. Discard any clams with broken shells or that do not close when tapped,10,prep
+363,"In a large skillet or pan, heat the olive oil over medium heat. Add the minced garlic and sauté for 1-2 minutes until fragrant",3,cook
+364,"Add the clams to the skillet and pour in the white wine. Cover the skillet with a lid and cook for 5-7 minutes, or until the clams have opened",10,cook
+365,Discard any clams that have not opened. Sprinkle the chopped coriander over the clams and season with salt and black pepper to taste,2,prep
+366,Give everything a gentle toss to combine,3,cook
+367,Transfer the clams and sauce to a serving dish. Serve hot with lemon wedges on the side for squeezing over the clams,2,prep
+368,Preheat your oven to 200°C (390°F).Grease a muffin tin or line it with paper liners,10,prep
+369,"In a large mixing bowl, combine the granulated sugar and melted butter. Mix well",2,prep
+370,"Add the eggs, one at a time, mixing well after each addition",3,prep
+371,"Gradually add the flour, mixing until smooth",4,prep
+372,Stir in the whole milk and lemon zest until well combined,5,prep
+373,"Pour the batter into the prepared muffin tin, filling each cavity about 3/4 full",6,prep
+374,"Bake in the preheated oven for 25-30 minutes, or until the queijadas are set and golden brown on top",30,cook
+375,Remove from the oven and let them cool in the tin for 10 minutes before transferring them to a wire rack to cool completely,10,prep
+376,"Once cooled, dust the queijadas with ground cinnamon",1,prep
+377,"Heat the vegetable oil in a large skillet or wok over medium heat. Add the minced garlic and chopped onion, and sauté until fragrant, about 2 minutes",2,cook
+378,"Add the cooked chicken, shrimp, or tofu (if using) to the skillet, and stir-fry for another 2-3 minutes until heated through",3,cook
+379,"Push the ingredients to one side of the skillet, and pour the beaten eggs onto the empty side. Allow the eggs to set slightly, then scramble them until cooked",4,cook
+380,"Add the cooked rice to the skillet, breaking up any clumps with a spoon or spatula. Stir-fry for 3-4 minutes to heat through and incorporate all the ingredients",5,cook
+381,"Add the kecap manis, soy sauce, and oyster sauce to the skillet, and toss everything together until well combined",4,cook
+382,"Season with salt and pepper to taste, and adjust the seasoning if necessary",5,prep
+383,"Serve the Nasi Goreng hot, garnished with sliced cucumber, tomato, lettuce, and fried shallots if desired",6,prep
+384,Serve with lime wedges on the side for squeezing over the Nasi Goreng,1,prep
+385,"Mix garlic, shallot, kecap manis, soy sauce, oil, spices, salt for marinade",2,prep
+386,Marinate chicken in the mixture for 1 hour or more,5,prep
+387,Thread chicken onto skewers,6,prep
+388,"Preheat grill, cook skewers 4-5 min each side until cooked through",15,cook
+389,Brush with marinade while grilling,4,prep
+390,"Serve hot with sambal or peanut sauce, cucumber, and onion slices",5,prep
+391,Preheat the oven to 180°C (350°F),10,prep
+392,"Blend shallots, garlic, chili peppers, candlenuts, lemongrass, ginger, turmeric, galangal, kaffir lime leaves, and shrimp paste into a smooth paste",3,prep
+393,"Rub the spice paste all over the suckling pig, including inside the cavity",3,prep
+394,Truss the pig and place it on a roasting rack in a roasting pan. Brush with vegetable oil,5,prep
+395,"Roast the pig in the preheated oven for 3-4 hours, or until the skin is crispy and golden brown, and the meat is tender",180,cook
+397,"Once cooked, remove the pig from the oven and let it rest for 20-30 minutes before carving",30,prep
+398,Carve the pig into serving pieces and serve hot with steamed rice and sambal matah,10,prep
+399,Heat olive oil in a large paella pan or skillet,3,prep
+400,Sauté onion and garlic until softened,3,cook
+401,"Add bell peppers and tomato, cook until peppers are tender",3,cook
+402,"Stir in chorizo and chicken, cook until chicken is browned",5,cook
+403,"Add rice, smoked paprika, and saffron. Cook for 1 minute",4,cook
+404,Pour in chicken broth and bring to a simmer. Cook uncovered for 15-20 minutes until rice is almost cooked,20,cook
+405,Arrange seafood mix over the rice. Cook for another 5-10 minutes until seafood is cooked through and rice is tender,15,cook
+406,Season with salt and pepper to taste,1,prep
+407,Serve hot with lemon wedges,2,prep
+408,"In a saucepan, heat water, sugar, vegetable oil, and salt until boiling",2,prep
+409,Remove from heat and stir in flour until mixture forms a ball,3,prep
+410,Heat vegetable oil in a deep frying pan or pot,2,prep
+411,"Pipe or spoon dough into hot oil, fry until golden brown",4,cook
+412,Drain on paper towels,2,prep
+413,Mix sugar and cinnamon in a shallow bowl,5,prep
+414,Roll churros in cinnamon sugar mixture,5,prep
+415,Preheat the grill to medium-high heat,5,prep
+416,Season the beef ribs generously with salt and pepper,2,prep
+417,"Place the ribs on the grill and cook for 5-7 minutes on each side, or until desired doneness",10,cook
+418,Remove from the grill and let the meat rest for a few minutes,5,prep
+419,Serve hot with chimichurri sauce on the side,1,prep
+420,"In a bowl, mix flour and salt",2,prep
+421,Add cold water and diced butter to the flour mixture,3,prep
+422,Mix until a dough forms,4,prep
+423,Roll out the dough on a floured surface and cut out circles,5,prep
+424,Place a spoonful of filling in the center of each circle,6,prep
+425,Fold the dough over the filling to form a half-moon shape,7,prep
+426,Seal the edges by crimping with a fork,8,prep
+427,Brush the empanadas with egg wash,1,prep
+428,"Bake in a preheated oven at 200°C (400°F) for 20-25 minutes, or until golden brown",25,cook
+429,Drain and rinse the beans,10,prep
+430,"In a large pot, heat vegetable oil over medium heat. Add onion and garlic, cook until softened",5,prep
+431,Add mixed meats to the pot and cook until browned,10,cook
+432,"Add black beans, bay leaves, and enough water to cover the ingredients. Bring to a boil, then reduce heat and simmer for 1-2 hours, or until beans are tender",120,cook
+433,Season with salt and pepper to taste,5,prep
+434,Serve hot with rice and orange slices on the side,1,prep
+435,"In a non-stick saucepan, combine sweetened condensed milk, cocoa powder, and butter",2,prep
+436,"Cook over medium heat, stirring constantly, until the mixture thickens and pulls away from the sides of the pan (about 10-15 minutes)",10,cook
+437,Remove from heat and let the mixture cool to room temperature,5,prep
+438,Grease your hands with butter and roll the mixture into small balls (about 1 tablespoon each),5,prep
+439,Roll the balls in chocolate sprinkles or grated chocolate to coat,5,prep
+440,"In a large pot or Dutch oven, heat olive oil over medium heat. Add onion, garlic, carrots, and celery, cook until softened",5,prep
+441,Add beef chunks to the pot and brown on all sides,10,cook
+442,Stir in tomato paste and cook for 2-3 minutes,5,cook
+443,"Pour in red wine, beef broth, red wine vinegar, and add bay leaves. Bring to a simmer, then cover and cook over low heat for 2-3 hours, or until the meat is tender",180,cook
+444,"Season with salt, pepper, and sugar to taste, then serve hot with gnocchi or pasta",3,prep
+445,"In a mixing bowl, combine flour, instant yeast, sugar, and salt",2,prep
+446,"Add the egg, milk, and citrus zest to the dry ingredients. Mix until smooth",3,prep
+447,"If using raisins, fold them into the batter",4,prep
+448,Cover the bowl with a clean kitchen towel and let the batter rise in a warm place for about 30 minutes,30,prep
+449,Heat vegetable oil in a deep pot or fryer to 170°C (340°F),5,prep
+450,"Drop spoonfuls of batter into the hot oil and fry until golden brown and cooked through, about 2-3 minutes per side",10,cook
+451,"Remove the fritters from the oil and drain on paper towels, then dust with powdered sugar while still warm",2,prep
