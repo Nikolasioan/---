@@ -1,6 +1,6 @@
 #drop database project;
 use project;
-show tables;
+#show tables;
 
 #use the following commands to help you check if you can load data from files
 #SHOW VARIABLES LIKE "secure_file_priv";
@@ -15,7 +15,7 @@ lines terminated by '\r\n'
 ignore 0 rows;
 
 #for checking purposes
-select * from categories;
+#select * from categories;
 #truncate table categories;
 
 #COOKS
@@ -27,7 +27,7 @@ ignore 0 rows;
 
 #for checking purposes
 #truncate table cook;
-select * from cook;
+#select * from cook;
 
 #NATIONALITY
 load data local infile 'C:/MARIOS/DB csv files/nationality.csv'
@@ -50,11 +50,10 @@ lines terminated by '\n'
 ignore 0 rows;
 
 #check
-select * from cook_specialty;
+#select * from cook_specialty;
 #truncate table cook_specialty;
 
 #INGREDIENTS
-desc ingredients;
 
 load data local infile 'C:/MARIOS/DB csv files/ingredients_datasheets.csv'
 into table ingredients
@@ -63,8 +62,8 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 0 rows;
 
-select * from ingredients;
-truncate table ingredients;
+#select * from ingredients;
+#truncate table ingredients;
 #show warnings;
 
 #LABELS
@@ -76,7 +75,7 @@ lines terminated by '\n'
 ignore 0 rows;
 
 #check
-select * from labels;
+#select * from labels;
 
 #RECIPIES
 #desc recipies;
@@ -89,7 +88,7 @@ lines terminated by '\n'
 ignore 0 rows;
 
 #check
-select * from recipies;
+#select * from recipies;
 #truncate table recipies;
 
 #TOOLS
@@ -100,7 +99,7 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 0 rows;
 
-select * from tools;
+#select * from tools;
 #truncate table tools;
 
 #TIPS
@@ -111,7 +110,7 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 0 rows;
 
-select * from tips;
+#select * from tips;
 #truncate table tips;
 
 
@@ -123,7 +122,7 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 0 rows;
 
-select * from themes;
+#select * from themes;
 #truncate table themes;
 
 #STEPS
@@ -135,7 +134,5 @@ lines terminated by '\r\n'
 ignore 0 rows;
 
 #check
-select * from steps;
+#select * from steps;
 #truncate table steps;
-
-

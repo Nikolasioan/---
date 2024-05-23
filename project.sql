@@ -311,16 +311,9 @@ add column cooking_time_in_min int not null;
 
 #new lines
 
-use project;
-show create table recipe_ingredient;
+#show create table recipe_ingredient;
 alter table recipe_ingredient
 modify column quantity_in_grams int not null;
-
-show create table ingredients;
-alter table ingredients
-drop constraint ingredients_chk_4;
-alter table ingredients
-add constraint check(calories >= 0);
 
 alter table recipies
 add column protein_per_portion float not null,
@@ -431,3 +424,4 @@ begin
 end;
 //
 DELIMITER ;
+#show warnings;
