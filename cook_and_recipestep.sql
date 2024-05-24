@@ -1,4 +1,4 @@
-INSERT INTO cook VALUES
+INSERT INTO cook(id,name,surname,tel_number,date_of_birth,level,years_of_working_experience) VALUES
 ('1','Andreas','Papadopoulos',6930154892,'1988-02-14','Cook A','7'),
 ('2','Sofia','Katsarou','6937724851','1985-10-06','Chef','12'),
 ('3','Ioannis','Georgiou','6932968135','1980-04-21','Cook C','2'),

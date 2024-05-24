@@ -98,7 +98,7 @@ create table recipe_step(
 rname varchar(50) not null,
 step_id int not null,
 step_number int check(step_number > 0),
-primary key (rname,step_number,step_id)
+primary key (rname,step_id,step_number)
 );
 
 create table recipe_ingredient(
