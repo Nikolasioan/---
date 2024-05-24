@@ -1,3 +1,4 @@
+#drop database project;
 create database project;
 use project;
 
@@ -249,6 +250,21 @@ add constraint fk1_rating_episode foreign key(ep_id) references episode(ep_id) o
 add constraint fk1_rating_cook foreign key(cook_id) references cook(id) on delete restrict on update cascade,
 add constraint fk2_rating_cook foreign key(judge_id) references cook(id) on delete restrict on update cascade;
 
+#ALTER SOME TABLES
+
+alter table recipies
+add column preparation_time_in_min int,
+add column cooking_time_in_min int;
+
+alter table recipe_ingredient
+modify column quantity_in_grams int;
+
+alter table recipies
+add column protein_per_portion float,
+add column carbs_per_portion float,
+add column fats_per_portion float,
+add column calories_per_portion float;
+
 #TRIGGERS
 
 DELIMITER //
@@ -304,23 +320,6 @@ begin
 end;
 //
 DELIMITER ;
-
-alter table recipies
-add column preparation_time_in_min int,
-add column cooking_time_in_min int;
-
-#new lines
-
-#show create table recipe_ingredient;
-alter table recipe_ingredient
-modify column quantity_in_grams int;
-
-alter table recipies
-add column protein_per_portion float,
-add column carbs_per_portion float,
-add column fats_per_portion float,
-add column calories_per_portion float;
-
 
 DELIMITER //
 CREATE TRIGGER cook_age
@@ -514,10 +513,12 @@ end;
 //
 DELIMITER ;
 
-#SELECT user, host FROM mysql.user WHERE user = 'Admin';
-#create user 'Admin'@'%' identified by 'Admin1234';
-#grant insert,update on project.* to 'Admin'@'%';
-#grant select, lock tables, reload on *.* to 'Admin'@'%';
+
+#USERS
+SELECT user, host FROM mysql.user WHERE user = 'Admin';
+create user 'Admin'@'%' identified by 'Admin1234';
+grant insert,update on project.* to 'Admin'@'%';
+grant select, lock tables, reload on *.* to 'Admin'@'%';
 
 CREATE USER 'cook_1'@'%' IDENTIFIED BY 'pass1';
 CREATE USER 'cook_2'@'%' IDENTIFIED BY 'word2';
@@ -620,7 +621,7 @@ CREATE USER 'cook_98'@'%' IDENTIFIED BY 'post98';
 CREATE USER 'cook_99'@'%' IDENTIFIED BY 'form99';
 CREATE USER 'cook_100'@'%' IDENTIFIED BY 'plan100';
 
-DELIMITER //
+DELIMITER // #user procedure
 create procedure change_tel(in identity varchar(50),in telephone_number varchar(15))
 begin
 declare user_id varchar(50);
@@ -734,5 +735,3 @@ GRANT EXECUTE ON PROCEDURE project.change_tel TO 'cook_97'@'%';
 GRANT EXECUTE ON PROCEDURE project.change_tel TO 'cook_98'@'%';
 GRANT EXECUTE ON PROCEDURE project.change_tel TO 'cook_99'@'%';
 GRANT EXECUTE ON PROCEDURE project.change_tel TO 'cook_100'@'%';
-#show warnings;
-#drop database project;
