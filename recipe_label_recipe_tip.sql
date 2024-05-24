@@ -13,7 +13,7 @@ INSERT INTO recipe_label VALUES
 ('Spanakopita','2'),
 ('Spanakopita','3'),
 ('Baklava','4'),
-('Omelette',''),
+('Omelette','5'),
 ('Omelette','6'),
 ('Margherita Pizza','3'),
 ('Chicken Caesar Salad','2'),
