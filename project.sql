@@ -13,7 +13,7 @@ primary key(name)
 );
 
 create table meal_type(
-name enum ('breakfast','brunch','meal','snack','dinner') not null,
+name enum ('breakfast','brunch','lunch','snack','dinner') not null,
 primary key(name));
 
 create table nationality(
@@ -34,7 +34,7 @@ name varchar(100) not null
 
 create table tools(
 name varchar(50) not null primary key,
-use_instructions varchar(150) not null
+use_instructions varchar(300) not null
 );
 
 create table themes(
@@ -55,7 +55,7 @@ age int
 
 create table steps(
 id int auto_increment primary key,
-description varchar(150) not null,
+description varchar(250) not null,
 time_in_minutes int not null check (time_in_minutes >= 0),
 prep_or_cook enum('prep','cook') not null
 );
@@ -306,20 +306,20 @@ end;
 DELIMITER ;
 
 alter table recipies
-add column preparation_time_in_min int not null,
-add column cooking_time_in_min int not null;
+add column preparation_time_in_min int,
+add column cooking_time_in_min int;
 
 #new lines
 
 #show create table recipe_ingredient;
 alter table recipe_ingredient
-modify column quantity_in_grams int not null;
+modify column quantity_in_grams int;
 
 alter table recipies
-add column protein_per_portion float not null,
-add column carbs_per_portion float not null,
-add column fats_per_portion float not null,
-add column calories_per_portion float not null;
+add column protein_per_portion float,
+add column carbs_per_portion float,
+add column fats_per_portion float,
+add column calories_per_portion float;
 
 DELIMITER //
 create trigger calories_calculation_update
@@ -425,3 +425,4 @@ end;
 //
 DELIMITER ;
 #show warnings;
+#drop database project;

@@ -26,6 +26,7 @@ DELIMITER ;
 
 # Call the stored procedure to insert the episodes
 CALL insert_episodes();
+#select * from episode;
 
 DELIMITER //
 create procedure episodes_random_fill()
@@ -89,7 +90,7 @@ DELIMITER ;
 #drop procedure episodes_random_fill;
 call episodes_random_fill();
 #truncate table ep_data;
-select * from ep_data;
+#select * from ep_data order by 1,2;
 
 #CHOOSE JUJDES AND RATING FOR EACH COOK AND EACH EPISODE
 
@@ -100,7 +101,7 @@ with possible_judges as(
 select ed.ep_id "ep_id", cook.id "judge", count(*), ROW_NUMBER() OVER (PARTITION BY ed.ep_id ORDER BY RAND()) AS ro from
 ep_data ed join cook
 on ed.cook_id<>cook.id
-group by ep_id,cook.id
+group by ep_id,judge
 having count(*)=10),
 #select randomly 3 judges (from the 90 possible) for each episode
 ep_judges as(
