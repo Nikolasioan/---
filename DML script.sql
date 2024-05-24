@@ -85,7 +85,7 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 0 rows;
 
-#select * from ingredients;
+#select * from ingredients where category="Fish & Their Products";
 #truncate table ingredients;
 #show warnings;
 
