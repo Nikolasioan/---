@@ -12,6 +12,7 @@ INSERT INTO categories VALUES
 ('Products with sweeteners','Assorted food items enriched with natural or artificial sweetening agents enhance taste profiles with sweetness, essential for creating indulgent treats and beverages.'),
 ('Various drinks','A myriad of beverages, from refreshing juices to soothing teas and invigorating coffees, cater to diverse preferences and occasions, providing hydration, stimulation, and enjoyment');
 
+#select * from cook;
 INSERT INTO cook (id,name,surname,tel_number,date_of_birth,level) VALUES 
 (1,'Andreas','Papadopoulos',6930154892,'1988-02-14','Cook A'),
 (2,'Sofia','Katsarou',6937724851,'1985-10-06','Chef'),
