@@ -322,86 +322,83 @@ end;
 DELIMITER ;
 
 DELIMITER //
-CREATE TRIGGER cook_age
-BEFORE INSERT ON cook
-FOR EACH ROW
-BEGIN
-    DECLARE cage INT;
-    DECLARE cookd INT;
-    DECLARE cookm INT;
-    DECLARE cooky INT;
-    DECLARE cd INT;
-    DECLARE cm INT;
-    DECLARE cy INT;
+create trigger cook_age
+before insert on cook
+for each row
+begin
+    declare cage int;
+    declare cookd int;
+    declare cookm int;
+    declare cooky int;
+    declare cd int;
+    declare cm int;
+    declare cy int;
 
-    -- Extract date components of the cook's birth date
-    SET cookd = DAY(NEW.date_of_birth);
-    SET cookm = MONTH(NEW.date_of_birth);
-    SET cooky = YEAR(NEW.date_of_birth);
+    
+    set cookd = day(new.date_of_birth);
+    set cookm = month(new.date_of_birth);
+    set cooky = year(new.date_of_birth);
 
-    -- Extract date components of the current date
-    SET cd = DAY(CURDATE());
-    SET cm = MONTH(CURDATE());
-    SET cy = YEAR(CURDATE());
+    
+    set cd = day(CURDATE());
+    set cm = month(CURDATE());
+    set cy = year(CURDATE());
 
-    -- Calculate the age
-    IF (cm > cookm) OR (cm = cookm AND cd > cookd) THEN
-        SET cage = cy - cooky;
-    ELSE
-        SET cage = cy - cooky - 1;
-    END IF;
+   
+    if (cm > cookm) or (cm = cookm and cd > cookd) then
+        set cage = cy - cooky;
+    else
+        set cage = cy - cooky - 1;
+    end if;
 
-    -- Set the age directly in the NEW record
-    SET NEW.age = cage;
-END;
+   
+    set new.age = cage;
+end;
 //
 DELIMITER ;
 
 
 DELIMITER //
-CREATE TRIGGER cook_age_update
-BEFORE UPDATE ON cook
-FOR EACH ROW
-BEGIN
-    DECLARE cage INT;
-    DECLARE cookd INT;
-    DECLARE cookm INT;
-    DECLARE cooky INT;
-    DECLARE cd INT;
-    DECLARE cm INT;
-    DECLARE cy INT;
+create trigger cook_age_update
+before update on cook
+for each row
+begin
+    declare cage int;
+    declare cookd int;
+    declare cookm int;
+    declare cooky int;
+    declare cd int;
+    declare cm int;
+    declare cy int;
 
-    -- Extract date components of the cook's birth date
-    SET cookd = DAY(NEW.date_of_birth);
-    SET cookm = MONTH(NEW.date_of_birth);
-    SET cooky = YEAR(NEW.date_of_birth);
+    
+    set cookd = day(new.date_of_birth);
+    set cookm = month(new.date_of_birth);
+    set cooky = year(new.date_of_birth);
 
-    -- Extract date components of the current date
-    SET cd = DAY(CURDATE());
-    SET cm = MONTH(CURDATE());
-    SET cy = YEAR(CURDATE());
+    
+    set cd = day(CURDATE());
+    set cm = month(CURDATE());
+    set cy = year(CURDATE());
 
-    -- Calculate the age
-    IF (cm > cookm) OR (cm = cookm AND cd > cookd) THEN
-        SET cage = cy - cooky;
-    ELSE
-        SET cage = cy - cooky - 1;
-    END IF;
+   
+    if (cm > cookm) or (cm = cookm and cd > cookd) then
+        set cage = cy - cooky;
+    else
+        set cage = cy - cooky - 1;
+    end if;
 
-    -- Set the age directly in the NEW record
-    SET NEW.age = cage;
-END;
+   
+    set new.age = cage;
+end;
 //
 DELIMITER ;
 
 DELIMITER //
-CREATE PROCEDURE update_recipies(
-    IN recipe_name VARCHAR(100),
-    IN total_calories FLOAT
-)
-BEGIN
+create procedure update_recipies(in recipe_name varchar(100),in total_calories float)
+begin
     update recipies set calories_per_portion=total_calories/portions where name=recipe_name;
-END;
+end;
 //
 DELIMITER ;
 
@@ -437,13 +434,10 @@ end;
 DELIMITER ;
 
 DELIMITER //
-CREATE PROCEDURE update_recipies1(
-    IN recipe_name VARCHAR(100),
-    IN total_protein FLOAT
-)
-BEGIN
+create procedure update_recipies1(in recipe_name varchar(100),in total_protein float)
+begin
     update recipies set protein_per_portion=total_protein/portions where name=recipe_name;
-END;
+end;
 //
 DELIMITER ;
 
@@ -478,13 +472,10 @@ end;
 DELIMITER ;
 
 DELIMITER //
-CREATE PROCEDURE update_recipies2(
-    IN recipe_name VARCHAR(100),
-    IN total_carbs FLOAT
-)
-BEGIN
+create procedure update_recipies2(in recipe_name varchar(100),in total_carbs float)
+begin
     update recipies set carbs_per_portion=total_carbs/portions where name=recipe_name;
-END;
+end;
 //
 DELIMITER ;
 
@@ -519,13 +510,10 @@ end;
 DELIMITER ;
 
 DELIMITER //
-CREATE PROCEDURE update_recipies3(
-    IN recipe_name VARCHAR(100),
-    IN total_fats FLOAT
-)
-BEGIN
+create procedure update_recipies3(in recipe_name varchar(100),in total_fats float)
+begin
     update recipies set fats_per_portion=total_fats/portions where name=recipe_name;
-END;
+end;
 //
 DELIMITER ;
 
