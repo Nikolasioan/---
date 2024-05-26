@@ -109,6 +109,3 @@ select pj.ep_id, pj.judge from possible_judges pj where pj.ro=1 or pj.ro=2 or pj
 #insert data into rating table
 select ed.ep_id, ed.cook_id, ej.judge, floor(1+5*rand()) "rate" from ep_judges ej join ep_data ed on ej.ep_id=ed.ep_id
 ;
-
-#select * from rating;
-#truncate table rating;

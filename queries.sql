@@ -1,3 +1,8 @@
+create index idx_cook_age on cook(age);						#used in query 3.3
+create index idx_ep_data_cook_id on ep_data(cook_id);		#used in queries 3.7,3.11,3.13
+create index idx_ep_data_recipe on ep_data(recipe_name);	#used in query 3.6
+create index idx_rating_judge_id on rating(judge_id);		#used in queries 3.4,3.5,3.11
+
 #QUERY 3.1
 
 #a
@@ -5,6 +10,8 @@ create view q31a as
 select a.cook_id,b.name,b.surname,a.Average_rate from
 (select cook_id,sum(rate)/count(ep_id) as Average_rate 
 from rating group by cook_id) as a inner join cook as b on a.cook_id=b.id;
+#show result
+select * from q31a;
 
 #b
 create view q31b as
@@ -12,6 +19,8 @@ select e.nationality,sum(e.rate)/count(e.nationality) as nationality_score from
 (select d.nationality,c.rate from (select b.recipe_name,a.rate from rating as a 
 inner join ep_data as b on (a.ep_id=b.ep_id and a.cook_id=b.cook_id)) as c
 inner join recipies as d on c.recipe_name=d.name) as e group by nationality;
+#show result
+select * from q31b;
 
 #QUERY 3.2.
 
@@ -22,8 +31,8 @@ cs.cuisine_nationality "nationality"
 from cook_specialty cs join cook ck
 #Croatian cuisine below is used as an example. It can be replaced by any other cuisine
 on ck.id=cs.cook_id and cs.cuisine_nationality="Croatian cuisine";
+#show result
 select * from q32a;
-#drop view q32a;
 
 #b
 #cooks specialized in Croatian cuisine that took part in episodes of season 1
@@ -35,6 +44,8 @@ join episode ep
 on ep.ep_id = rating.ep_id and ep.season=2
 #group by q32a.cook_id
 ;
+#show result
+select * from q32b;
 
 #QUERY 3.3
 
@@ -51,12 +62,16 @@ group by youngsters.id)
 select youngsters.id, youngsters.name, youngsters.surname,count(*) from youngsters
 group by youngsters.id
 having count(*)=(select max(count) from no_of_recipies);
+#show result
+select * from q33;
 
 #QUERY 3.4
 create view q34 as
 select a.id,b.name,b.surname from
 (select id from cook where id not in(select judge_id from rating)) as a 
 inner join cook as b on a.id=b.id;
+#show result
+select * from q34;
 
 #QUERY 3.5
 
@@ -71,6 +86,8 @@ select esy.judge_id,esy.season,count(*) from ep_same_year esy
 group by esy.judge_id,esy.season having count(*)>3
 #order by 1 
 ;
+#show result
+select * from q35;
 
 #QUERY 3.6
 
@@ -87,6 +104,8 @@ select lpc.l1_id,lpc.l2_id,count(*) from label_pair_recipe lpc join ep_data ed
 on lpc.recipe=ed.recipe_name
 group by lpc.l1_id,lpc.l2_id
 order by count(*) desc limit 3;
+#show result
+select * from q36;
 
 #QUERY 3.7
 create view q37 as
@@ -103,7 +122,8 @@ from (select cook_id,count(*)/3 as count from rating as a
 group by cook_id
 union all
 select judge_id as cook_id,count(*)/10 as count from rating as b group by judge_id) as c)) as d) as f on f.cook_id=e.id;
-
+#show result
+select * from q37;
 
 #QUERY 3.8
 
@@ -116,6 +136,8 @@ group by ed.ep_id)
 #select the ones with the max number of tools
 select et.ep_id, et.countt from episode_tool et
 where et.countt=(select max(countt) from episode_tool);
+#show result
+select * from q38;
 
 #QUERY 3.9
 
@@ -127,6 +149,8 @@ on ed.recipe_name=r.name
 join episode ep
 on ep.ep_id=ed.ep_id
 group by season;
+#show result
+select * from q39;
 
 #QUERY 3.10
 create view q310 as
@@ -141,6 +165,8 @@ from ep_data as a inner join recipies as b on b.name=a.recipe_name) as c
 inner join episode as d on c.ep_id=d.ep_id) as e
 group by season,nationality having count>=3) as g
 on (f.nationality=g.nationality and f.season=g.season-1 and f.count=g.count));
+#show result
+select * from q310;
 
 #QUERY 3.11
 
@@ -161,6 +187,8 @@ from judge_rates jr
 where rn=1
 order by total desc limit 5
 ;
+#show result
+select * from q311;
 
 #QUERY 3.12
 
@@ -180,6 +208,8 @@ from ep_diff ed group by ed.season)
 select ed.season,ed.ep_id,ed.total_difficulty
 from ep_diff ed join season_max sm
 on ed.season=sm.season and ed.total_difficulty=sm.max_difficulty;
+#show result
+select * from q312;
 
 #QUERY 3.13
 create view q313 as
@@ -234,6 +264,8 @@ select id,
 from cook
 ) as b on (b.id=a.judge_id))) as g group by ep_id) as i
 );
+#show result
+select * from q313;
 
 #QUERY 3.14
 
@@ -259,3 +291,5 @@ group by i.category)
 select c.name from categories c left join categories_participated cp
 on c.name=cp.category
 where cp.category is null;
+#show result
+select * from q314;
